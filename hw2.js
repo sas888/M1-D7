@@ -5,19 +5,37 @@
  The choice should be made based on the value of another variable called isMale.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let isMale = true;
+
+let gender = isMale === true ? "Male" : "Female";
+
+console.log(gender);
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let firstNum = 6;
+let secondNum = 2;
+let checkTotal = 8;
+
+if (
+  firstNum === checkTotal ||
+  secondNum === checkTotal ||
+  firstNum + secondNum === checkTotal ||
+  firstNum - secondNum === checkTotal
+) {
+  console.log(true);
+} else {
+  console.log(false);
+}
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let thirdString = "First String" + " " + "Second String";
+console.log(thirdString);
 
 /*EX 4
  Create three variables and assign a numerical value to each one of them. 
@@ -31,7 +49,12 @@
  Write a piece of code for finding the average of two given integers.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let firstInt = 5;
+let secondInt = 6;
+
+let average = (firstInt + secondInt) / 2;
+
+console.log(average);
 
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
